@@ -1,0 +1,105 @@
+.jumbotron
+{
+	margin:0;
+	padding: 20px;
+	border-radius: 0;
+}
+
+.body-auth
+{
+	overflow-x: hidden;
+	background:url(../images/bg1.jpg);
+	background-size: cover;
+}
+
+.inner
+{
+	overflow: hidden;
+}
+
+.inner img
+{
+	transition: all 1.5s ease;
+}
+
+.inner:hover img
+{
+	transform: scale(1.5);
+}
+
+
+.main-section
+{
+	margin: 0 auto;
+	margin-top: 130px;
+	padding : 0;
+}
+ .modal-content
+ {
+ 	background-color :#434e5a;
+ 	padding :0 18px;
+ 	border-radius: 10px;
+ }
+
+ .user-img img
+ {
+ 	height: 120px;
+ 	width: 120px;
+ }
+
+ .user-img 
+ {
+ 	margin-top:-60px;
+ 	margin-bottom: 45px;
+ }
+
+ .form-group
+ {
+ 	margin-bottom: 25px;
+ }
+
+ .form-group input
+ {
+ 	height: 42px;
+ 	border-radius : 5px;
+ 	border:1;
+ 	font-size: 18px;
+ 	letter-spacing: 2px;
+ }
+
+
+.form-input button
+{
+	background-color: #1c6288;
+	width: 40%;
+	margin :5px 0 25px;
+	font-size: 19px;
+	border-radius: 5px;
+	padding: 7px 14px;
+}
+
+.button-success
+{
+	background-color: #1c6288;
+	font-size: 19px;
+	border-radius: 5px;
+	padding : 7px 14px;
+	border-color: 1px solid #daf1ff;
+}
+
+.button-success:hover
+{
+	background-color: #13445e;
+	border-color: 1px solid #daf1ff;
+}
+
+
+.forgot
+{
+	padding : 5px 0 25px;
+}
+.forgot a
+{
+	color: #daf1ff;
+}
+
